@@ -19,7 +19,7 @@
     "seed:check": "npm --prefix server run seed:check"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=20.0.0 <23.0.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
