@@ -3,7 +3,7 @@ services:
     name: quickcart-merchant-api
     env: node
     plan: free
-    buildCommand: pnpm install && pnpm run build
+    buildCommand: corepack enable && pnpm install && pnpm run build
     startCommand: npm start
     healthCheckPath: /health
     envVars:
@@ -14,16 +14,16 @@ services:
       - key: ADMIN_KEY
         generateValue: true
       - key: DEV_TOOLS
-        value: "false"
+        value: "true"
       - key: AGENT_TOKENS
-        placeholder: "name:token:scopes;name:token:scopes"
+        value: default_agent:qc_agent_test_tok_123:catalog:read,cart:write,checkout:create,orders:read;readonly_agent:qc_ro_tok_456:catalog:read,orders:read
       - key: RAZORPAY_KEY_ID
-        placeholder: "rzp_test_placeholder"
+        value: rzp_test_placeholder
       - key: RAZORPAY_KEY_SECRET
-        placeholder: "razorpay_secret_placeholder"
+        value: placeholder_secret_key
       - key: RAZORPAY_WEBHOOK_SECRET
-        placeholder: "webhook_secret_placeholder"
+        value: placeholder_webhook_secret
       - key: SESSION_SIGNING_SECRET
         generateValue: true
       - key: PUBLIC_BASE_URL
-        placeholder: "https://your-app-name.onrender.com"
+        value: https://quickcart-merchant-api.onrender.com
