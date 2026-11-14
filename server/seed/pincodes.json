@@ -1,0 +1,87 @@
+[
+  {
+    "pincode": "302001",
+    "area": "MI Road / C-Scheme",
+    "city": "Jaipur",
+    "etaMinutes": 15,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "302017",
+    "area": "Malviya Nagar",
+    "city": "Jaipur",
+    "etaMinutes": 18,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "302021",
+    "area": "Vaishali Nagar",
+    "city": "Jaipur",
+    "etaMinutes": 22,
+    "deliveryFeePaise": 3500
+  },
+  {
+    "pincode": "110001",
+    "area": "Connaught Place",
+    "city": "New Delhi",
+    "etaMinutes": 12,
+    "deliveryFeePaise": 2500
+  },
+  {
+    "pincode": "110016",
+    "area": "Hauz Khas",
+    "city": "New Delhi",
+    "etaMinutes": 15,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "110020",
+    "area": "Okhla Industrial Area",
+    "city": "New Delhi",
+    "etaMinutes": 20,
+    "deliveryFeePaise": 3500
+  },
+  {
+    "pincode": "560001",
+    "area": "MG Road / Ashok Nagar",
+    "city": "Bengaluru",
+    "etaMinutes": 14,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "560034",
+    "area": "Koramangala",
+    "city": "Bengaluru",
+    "etaMinutes": 16,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "560038",
+    "area": "Indiranagar",
+    "city": "Bengaluru",
+    "etaMinutes": 15,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "400001",
+    "area": "Fort / Colaba",
+    "city": "Mumbai",
+    "etaMinutes": 19,
+    "deliveryFeePaise": 3900
+  },
+  {
+    "pincode": "400050",
+    "area": "Bandra West",
+    "city": "Mumbai",
+    "etaMinutes": 14,
+    "deliveryFeePaise": 2900
+  },
+  {
+    "pincode": "400076",
+    "area": "Powai",
+    "city": "Mumbai",
+    "etaMinutes": 17,
+    "deliveryFeePaise": 3200
+  }
+]
+

@@ -1,0 +1,14 @@
+node_modules
+server/dist
+console/dist
+dist
+build
+.git
+.env
+.env.*
+tests
+server/tests
+*.log
+coverage
+.vscode
+.idea

@@ -1,0 +1,44 @@
+[
+  {
+    "code": "WELCOME10",
+    "description": "10% off up to ₹100 on your first order (min order ₹199)",
+    "discountType": "percentage",
+    "value": 10,
+    "minSubtotalPaise": 19900,
+    "maxDiscountPaise": 10000,
+    "firstOrderOnly": true,
+    "exclusiveGroup": "order_discount",
+    "active": true
+  },
+  {
+    "code": "FLAT50",
+    "description": "Flat ₹50 off on orders above ₹499",
+    "discountType": "flat",
+    "value": 5000,
+    "minSubtotalPaise": 49900,
+    "maxDiscountPaise": 5000,
+    "firstOrderOnly": false,
+    "exclusiveGroup": "order_discount",
+    "active": true
+  },
+  {
+    "code": "FREEDEL",
+    "description": "Free delivery on orders above ₹149",
+    "discountType": "free_delivery",
+    "value": 0,
+    "minSubtotalPaise": 14900,
+    "firstOrderOnly": false,
+    "active": true
+  },
+  {
+    "code": "EXPIRED20",
+    "description": "Expired promotional coupon",
+    "discountType": "percentage",
+    "value": 20,
+    "minSubtotalPaise": 10000,
+    "firstOrderOnly": false,
+    "active": false,
+    "expired": true
+  }
+]
+
