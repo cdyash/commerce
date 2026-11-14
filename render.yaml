@@ -3,7 +3,7 @@ services:
     name: quickcart-merchant-api
     env: node
     plan: free
-    buildCommand: corepack enable && pnpm install && pnpm run build
+    buildCommand: npm install -g pnpm && pnpm install && pnpm run build
     startCommand: npm start
     healthCheckPath: /health
     envVars:
